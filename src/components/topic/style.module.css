@@ -50,7 +50,7 @@ img{
     bottom: 0;
     left: 0;
     right: 0;
-    height: 120px;
+    height: 100px;
     transform: translateY(-50px);
-    background: linear-gradient(transparent, white); /* Gradient z przezroczystego do białego koloru */
+    background: linear-gradient(transparent, rgba(255, 255, 255, 0.568));
 }
