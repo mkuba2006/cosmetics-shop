@@ -7,7 +7,7 @@ main{
     flex-wrap: wrap;
     margin: 0 auto;
     align-items: center;
-    width: 1000px;
+    width: 1200px;
 }
 .first{
     width: 450px;
@@ -24,7 +24,7 @@ h4{
     padding-right: 60px;
 }
 img{
-    width: 450px;
+    width: 580px;
 }
 
 .third{
@@ -40,7 +40,7 @@ img{
 
 .imageContainer {
     width: 100%;
-    max-width: 450px;
+    max-width: 580px;
     margin: 0 auto;
     position: relative;
 }
@@ -52,6 +52,6 @@ img{
     left: 0;
     right: 0;
     height: 100px;
-    transform: translateY(-50px);
+    transform: translateY(-20px);
     background: linear-gradient(transparent, rgba(255, 255, 255, 0.568));
 }

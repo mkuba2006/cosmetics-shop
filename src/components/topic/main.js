@@ -13,7 +13,7 @@ function Topic() {
             </div>   
             <div className={classes.imageContainer}>
                 <img
-                src="https://github.com/mkuba2006/site/blob/master/public/images/blumaan1.jpg?raw=true"
+                src="https://github.com/mkuba2006/site/blob/master/public/images/monarch.jpg?raw=true"
                 alt="Meraki"
                 />
             </div>
