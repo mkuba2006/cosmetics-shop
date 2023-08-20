@@ -1,48 +1,100 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
 
+:root{
+    --hue: 152;
+    --text-color: hsl(var(--hue), 4%, 35%);
+}
+
 main{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    margin: 0 auto;
+    flex-wrap: nowrap;
+    margin: 50px auto 0 auto;
     align-items: center;
     width: 1200px;
 }
 .first{
     width: 450px;
 }
+
+button{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--text-color);
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+button:hover{
+    background-color: rgb(87, 86, 86);
+}
+
 h1{
     font-family: 'Poppins', sans-serif;
     font-size: 46px;
     color: rgb(43, 42, 42);
 }
+
 h4{
-    color: gray;
+    color: var(--text-color);
     font-size: 18px;
     font-weight: 300;
     padding-right: 60px;
 }
-img{
-    width: 580px;
+
+h5{
+    font-size: 15px;
+    color: var(--text-color);
+}
+h5::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: var(--text-color);;
+    right: -13%;
+    top: 50%;
+}
+
+a{
+    margin-top: 10px;
 }
 
 .third{
     display: flex;
     flex-direction: column;
     gap: 5px;
-    width: 100px;
+    width: 120px;
+    text-align: center;
 }
+.icon:first-of-type{
+    margin-top: 40px;
+}
+.icon{
+    color: var(--text-color);
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
 .follow{
     transform: rotate(90deg);
     padding-right: 20px;
 }
 
+
+img{
+    width: 580px;
+}
+
 .imageContainer {
     width: 100%;
     max-width: 580px;
-    margin: 0 auto;
+    margin: 0 20px 0 30px;
     position: relative;
+
 }
 
 .imageContainer::after {
@@ -53,5 +105,5 @@ img{
     right: 0;
     height: 100px;
     transform: translateY(-20px);
-    background: linear-gradient(transparent, rgba(255, 255, 255, 0.568));
+    background: linear-gradient(transparent, rgba(255, 255, 255, 0.788));
 }
