@@ -11,21 +11,23 @@ function Topic() {
             <div className={classes.first}>
                 <h1>Enhance style with premium products</h1>
                 <h4>Upgrade your daily routine with our premium men's hair products. Experience confidence through exceptional grooming.</h4>
-                <a href="#">
-                    <button>Explore <FontAwesomeIcon icon={faArrowRight} /></button>
+                <a href="#nnn">
+                    <button>Explore <FontAwesomeIcon icon={faArrowRight} className={classes.arrow} /></button>
                 </a>
             </div>   
             <div className={classes.imageContainer}>
                 <img
-                src="https://github.com/mkuba2006/site/blob/master/public/images/monarch.jpg?raw=true"
+                src="https://www.pomade.com/cdn/shop/products/BluMaan_Monarch_Open-Recovered_grande.jpg?v=1658789145"
                 alt="Meraki"
                 />
             </div>
              <div className={classes.third}>
                 <h5 className={classes.follow}>FOLLOW US</h5>
-                <FontAwesomeIcon icon={faInstagram} className={classes.icon}/>
-                <FontAwesomeIcon icon={faFacebook} className={classes.icon}/>
-                <FontAwesomeIcon icon={faGithub} className={classes.icon}/>
+                <div className={classes.icons}>
+                    <FontAwesomeIcon icon={faInstagram} className={classes.icon}/>
+                    <FontAwesomeIcon icon={faFacebook} className={classes.icon}/>
+                    <FontAwesomeIcon icon={faGithub} className={classes.icon}/>
+                </div>
             </div>
         </main>
     );

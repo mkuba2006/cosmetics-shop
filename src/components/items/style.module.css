@@ -1,0 +1,46 @@
+.ase{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1150px;
+    margin:  0 auto;
+    margin-bottom: 300px;
+    justify-content: space-around;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 16px;
+    border-radius: 7px;
+    text-align: center;
+    transition: 0.2s ease-in;
+}
+.item:hover{
+   scale: 1.01;
+}
+.imga{
+    width: 250px;
+}
+h2, h4{
+    margin: 0;
+    padding: 0;
+}
+.price{
+    color: rgb(92, 177, 8);
+}
+.button{
+    padding: 0;
+    background: none;
+}
+
+.icon{
+    font-size: 20px;
+    padding: 0;
+    color: black;
+}
