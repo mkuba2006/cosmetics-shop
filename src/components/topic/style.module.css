@@ -5,12 +5,12 @@ main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 30px 20% 0 20%;
+    margin: 0 auto;
     align-items: center;
-    width: 60%;
+    width: 1000px;
 }
 .first{
-    width: 40%;
+    width: 450px;
 }
 h1{
     font-family: 'Poppins', sans-serif;
@@ -31,6 +31,7 @@ img{
     display: flex;
     flex-direction: column;
     gap: 5px;
+    width: 100px;
 }
 .follow{
     transform: rotate(90deg);
