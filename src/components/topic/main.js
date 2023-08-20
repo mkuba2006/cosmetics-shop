@@ -8,10 +8,15 @@ function Topic() {
     return (
         <main>
             <div className={classes.first}>
-                <h1>We have the best hair products for you</h1>
+                <h1>Enhance style with premium products</h1>
                 <h4>Upgrade your daily routine with our premium men's hair products. Experience confidence through exceptional grooming.</h4>
             </div>   
-             <img src="https://github.com/mkuba2006/site/blob/master/public/images/Blumaan.jpg?raw=true" alt="Meraki"/>
+            <div className={classes.imageContainer}>
+                <img
+                src="https://github.com/mkuba2006/site/blob/master/public/images/blumaan1.jpg?raw=true"
+                alt="Meraki"
+                />
+            </div>
              <div className={classes.third}>
                 <h5 className={classes.follow}>FOLLOW US</h5>
                 <FontAwesomeIcon icon={faInstagram} />

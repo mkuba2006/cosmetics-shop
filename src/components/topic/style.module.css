@@ -5,25 +5,26 @@ main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 80px 20% 0 20%;
+    padding: 30px 20% 0 20%;
     align-items: center;
-    width: 50%;
+    width: 60%;
 }
 .first{
     width: 40%;
 }
 h1{
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
+    font-size: 46px;
+    color: rgb(43, 42, 42);
 }
 h4{
     color: gray;
     font-size: 18px;
     font-weight: 300;
-    padding-right: 30px;
+    padding-right: 60px;
 }
 img{
-    width: 400px;
+    width: 450px;
 }
 
 .third{
@@ -34,4 +35,22 @@ img{
 .follow{
     transform: rotate(90deg);
     padding-right: 20px;
+}
+
+.imageContainer {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.imageContainer::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    transform: translateY(-50px);
+    background: linear-gradient(transparent, white); /* Gradient z przezroczystego do białego koloru */
 }
