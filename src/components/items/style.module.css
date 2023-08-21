@@ -2,10 +2,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 1150px;
+    width: 1250px;
     margin:  0 auto;
     margin-bottom: 300px;
     justify-content: space-around;
+    row-gap: 40px;
 }
 .title{
     display: flex;
@@ -20,27 +21,69 @@
     border-radius: 7px;
     text-align: center;
     transition: 0.2s ease-in;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .item:hover{
    scale: 1.01;
 }
 .imga{
     width: 250px;
+    height: 250px;
 }
 h2, h4{
+    display: flex;
+    align-items: center;
     margin: 0;
-    padding: 0;
+    justify-content: center;
+    padding-right: 0;
 }
 .price{
     color: rgb(92, 177, 8);
 }
-.button{
-    padding: 0;
+.buttona{
+    padding: 3px;
+    background: none;
+    cursor: pointer;
+    margin-top: 0;
+}
+.buttona:hover{
     background: none;
 }
+.buttona:focus .icon{
+    animation: colorChange 1.5s linear forwards;
+}
+@keyframes colorChange {
+    0% {
+        color: black;
+    }
+    30% {
+        color: green;
+    }
+    100% {
+        color: black; 
+    }
+  }
 
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttona:hover{
+    background: none;
+}
+input{
+    height: 22px;
+    font-size: 17px;
+    width: 50px;
+}
 .icon{
-    font-size: 20px;
+    font-size: 25px;
     padding: 0;
     color: black;
+}
+
+.sps{
+    color: blue;
 }

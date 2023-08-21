@@ -1,17 +1,17 @@
 import { Fragment } from "react";
 import Header from "./components/static/Header";
-import Topic from "./components/topic/main";
-import Sec from "./components/topic/about";
 import Items from "./components/items/items";
 import CartProvider from "./components/store/CartProvider";
+import Sum from "./components/topic/sum";
+import Card_list from "./components/cart/Card_item";
 function App() {
 
 
   return (
     <CartProvider>
+    <Card_list/>
       <Header />
-      <Topic />
-      <Sec />
+      <Sum />
       <Items />
     </CartProvider>
   );

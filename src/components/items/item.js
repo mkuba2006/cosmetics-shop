@@ -12,7 +12,10 @@ function Item(props) {
       name: props.name,
       amount: Number(quantity),
       price: props.price,
+      img: props.img,
+      author: props.author,
     });
+    console.log(ctx.items);
   };
 
   return (
@@ -22,7 +25,8 @@ function Item(props) {
       </div>
       <div>
         <h2 className={classes.name}>{props.name}</h2>
-        <h4 className={classes.description}>{props.description}</h4>
+        <h4 className={classes.description}>by <span className={classes.sps}>{props.author}</span></h4>
+        {/* <h4 className={classes.description}>{props.description}</h4> */}
         <h4 className={classes.price}>${props.price}</h4> 
       </div>
       <div className={classes.form}>

@@ -28,7 +28,7 @@ function Form(props) {
         step="1"
         defaultValue="1"
       />
-    <button className={classes.button}><FontAwesomeIcon icon={faCartShopping}  className={classes.icon}/></button>
+    <button className={classes.buttona}><FontAwesomeIcon icon={faCartShopping}  className={classes.icon}/></button>
     </form>
   );
 }

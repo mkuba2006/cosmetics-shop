@@ -1,0 +1,9 @@
+.Card{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.imgb{
+    width: 100px;
+    height: 100px;
+}
