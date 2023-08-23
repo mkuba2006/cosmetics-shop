@@ -6,11 +6,11 @@ import classes from './style.module.css';
 function Item(props) {
   const ctx = useContext(CartContext);
 
-  const addToCartHandler = (quantity) => {
+  const addToCartHandler = ilosc => {
     ctx.addItem({
       id: props.id,
       name: props.name,
-      amount: Number(quantity),
+      amount: Number(ilosc),
       price: props.price,
       img: props.img,
       author: props.author,

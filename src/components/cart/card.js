@@ -3,18 +3,15 @@ import classes from './style.module.css';
 
 function Card(props) {
 
-
   return (
     <li className={classes.Card}>
       <img src={props.img} className={classes.imgb}/>
-      <div>
-        <h1>{props.title}</h1>
-        <p>by <span>{props.author}</span></p>
+      <div className={classes.second}>
+        <h1>{props.author} -{props.title} </h1>
+        <p>Amount: <button onClick={props.onAdd}>+</button> {props.amount} <button onClick={props.onRemove}>-</button></p>
       </div>
-      <div>
-        <h1><b>{props.price}</b></h1>
-          <button onCLick={props.onADD}>+</button>
-          <button onCLick={props.onREMOVE}>-</button>
+      <div className={classes.third}>
+        <h1><b>{props.price}$</b></h1>
       </div>
     </li>
   );
