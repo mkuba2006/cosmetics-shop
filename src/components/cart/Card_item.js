@@ -20,7 +20,7 @@ function Card_list(props) {
   return (
     <div className={classes.back}>
       <div className={classes.window}>
-        <ul>
+        <ul className={classes.ulsa}>
         <h1>Your Cart:</h1>
           {ctx.items.map((item) => (
             <Card

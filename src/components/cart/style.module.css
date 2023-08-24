@@ -25,8 +25,12 @@
     width: 900px;
     background-color: rgb(255, 255, 255);
     border-radius: 7px;
-  }
+}
   
+.ulsa{
+    height: 400px;
+    overflow-y: scroll;
+}
 .Card{
     display: flex;
     align-items: center;
