@@ -4,6 +4,7 @@ import Items from "./components/items/items";
 import CartProvider from "./components/store/CartProvider";
 import Sum from "./components/topic/sum";
 import Card_list from "./components/cart/Card_item";
+import Footer from "./components/static/footer";
 import "./style.css";
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
       <Sum />
       {show && <Card_list onHide={hide} />}
       <Items />
+      <Footer />
     </CartProvider>
   );
 }

@@ -18,6 +18,22 @@
         min-width: 900px;
         max-width: 1000px;
     }
+    .products{
+        min-width: 900px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+}
+@media screen and (max-width: 1000px){
+    .ase{
+        min-width: 600px;
+        max-width: 700px;
+    }
+    .products{
+        min-width: 600px;
+        max-width: 700px;
+    }
 
 }
 

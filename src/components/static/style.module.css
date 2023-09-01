@@ -8,9 +8,29 @@ body{
 nav{
     font-size: 25px;
     margin: 0 auto;
-    width:6 0%;
+    width: 60%;
     padding: 0 20%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+@media screen and (max-width: 1300px){
+
+    nav{
+        padding: 0;
+        width: 80%;
+        max-width: 1000px;
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+
+    nav{
+        padding: 0;
+        width: 80%;
+        max-width: 600px;
+        justify-content: space-around;
+    }
+
 }

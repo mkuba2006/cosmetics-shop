@@ -26,7 +26,7 @@ function Items() {
   };
 
   return (
-    <div id="products">
+    <div className={classes.products}>
       <h1 className={classes.title}>Products</h1>
       <ul className={classes.ase}>{rend}</ul>
       {visibleItems < Data.length && (

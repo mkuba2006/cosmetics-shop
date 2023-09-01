@@ -123,6 +123,12 @@ img{
 }
 
 @media screen and (max-width:1300px){
+    main{
+        max-width: 600px;
+        width: 90%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
     .first{
         width: 450px;
         margin-bottom: 30px;
@@ -145,11 +151,6 @@ img{
     
     img{
         width: 400px;
-    }
-    main{
-        width: 900px;
-        flex-wrap: wrap;
-        flex-direction: column;
     }
     .follow{
         transform: rotate(0deg);
@@ -246,4 +247,45 @@ p{
 .button2:hover .arrow2{
     transform:  translateX(6px);
     color: white;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px){
+
+    main{
+        max-width: 600px;
+        width: 90%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .first_about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        width: 90vw;
+        margin-top: 200px;
+     }
+    .first_second{
+        width: 400px;
+    }
+
+    .images{
+        width: 400px;
+        flex-wrap: nowrap;
+        overflow: none;
+        transform: translateX(0);
+    }
+    .img{
+        width: 400px;
+    }
+    .img2{
+        width: 200px;
+        height: 200px;
+        transform: translate(200px, -190px);
+    }
+
 }
