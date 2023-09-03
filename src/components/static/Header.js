@@ -15,8 +15,8 @@ function Header(props) {
 
     return (
         <nav className={classes.name}>
-            <h1>Men site</h1>
-            <button onClick={props.onClick}>
+            <h1 className={classes.mensite}>Men site</h1>
+            <button className={classes.navbutton} onClick={props.onClick}>
                 <FontAwesomeIcon icon={faShoppingCart}/>
                 <span> Cart</span>
                 <span> {length}</span>

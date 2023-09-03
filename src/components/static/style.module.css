@@ -34,3 +34,22 @@ nav{
     }
 
 }
+
+@media screen and (max-width: 600px){
+
+    nav{
+        padding: 0;
+        width: 80%;
+        max-width: 590px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .mensite{
+        font-size: 20px;
+    }
+    .navbutton{
+        margin: 0;
+        font-size: 15px;
+    }
+
+}

@@ -11,6 +11,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
+    gap: 10px;
 }
 
 .div1, .div2, .div3, .div4{
@@ -34,4 +35,41 @@
     display: flex;
     gap: 10px;
     color: gray;
+}
+
+
+@media screen and (max-width: 670px){
+    .footer{
+        display: flex;
+        text-align: center;
+        text-align: center;
+        width: max-content;
+        flex-direction: column;
+        height: 520px;
+        justify-content: space-around;
+    }
+    .section2{
+        margin-bottom: 40px;
+    }
+    .section1{
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .div1, .div2, .div3, .div4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+        padding: 15px;
+        border-bottom: 1px solid black;
+    }
+    .div1 h1, .div2 h1, .div3 h1, .div4 h1{
+        margin: 5px 0;
+    }
+    .div1 h3, .div2 h3, .div3 h3, .div4 h3{
+        margin: 3px 0;
+    }
 }
