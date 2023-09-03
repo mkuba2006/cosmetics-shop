@@ -10,5 +10,4 @@ function Sum() {
         </Fragment>
     );
 }
-
 export default Sum;
