@@ -20,7 +20,7 @@ function Item(props) {
 
   return (
     <li className={classes.item} id={props.id}>
-      <div id='img'>
+      <div className={classes.isix}>
         <img src={props.img} alt={props.name} className={classes.imga} />
       </div>
 

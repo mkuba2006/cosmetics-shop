@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 70%;
+    width: 80%;
     min-width: 1000px;
     gap: 20px;
     margin:  0 auto;
@@ -43,8 +43,10 @@
 }
 .item{
     width: 250px;
-    height: auto;
+    max-width: 250px;
+    height: 350px;
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
     padding: 16px;
     border-radius: 7px;
@@ -55,9 +57,13 @@
 .item:hover{
    scale: 1.01;
 }
+.isix{
+    width: 200px;
+    margin: 0 auto;
+}
 .imga{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 h2, h4{
     padding-left: 15px;
@@ -162,7 +168,10 @@ input{
 
 
 @media screen and (max-width: 630px){
-
+    .title{
+       font-size: 35px;
+       margin-bottom: 30px;
+    }
     .ase{
         min-width: 200px;
         max-width: 700px;
@@ -213,10 +222,10 @@ input{
 
 @media screen and (max-width: 570px){
     .fst h2{
-        font-size: 20px;
+        font-size: 18px;
     }
     .fst h4{
-        font-size: 15px;
+        font-size: 13px;
     }
     .before_show{
         transform: translateY(-350px);
@@ -225,8 +234,29 @@ input{
 
 
 @media screen and (max-width: 470px){
+    .isix{
+        width: auto;
+    }
     .imga{
+        min-width: 120px;
         width: 120px;
         height: 120px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .fst h2{
+        font-size: 15px;
+    }
+    .fst h4{
+        font-size: 10px;
+    }
+    .before_show{
+        transform: translateY(-350px);
+    }
+    .imga{
+        min-width: 100px;
+        width: 100px;
+        height: 100px;
     }
 }

@@ -6,7 +6,7 @@ import { Data } from "./data";
 
 
 function Items() {
-  const [visibleItems, setVisibleItems] = useState(8);
+  const [visibleItems, setVisibleItems] = useState(12);
 
   const rend = Data.slice(0, visibleItems).map((item) => (
     <Item
