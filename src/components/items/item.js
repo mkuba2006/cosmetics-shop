@@ -23,14 +23,18 @@ function Item(props) {
       <div id='img'>
         <img src={props.img} alt={props.name} className={classes.imga} />
       </div>
-      <div>
-        <h2 className={classes.name}>{props.author} {props.name}</h2>
-        {/* <h4 className={classes.description}>{props.description}</h4> */}
-        <h4 className={classes.price}>${props.price}</h4> 
+
+      <div className={classes.scc}>
+        <div className={classes.fst}>
+          <h2 className={classes.name}>{props.author} {props.name}</h2>
+          <h4 className={classes.price}>${props.price}</h4> 
+        </div>
+        <div className={classes.form}>
+          <Form id={props.id} onAddToCart={addToCartHandler} />
+        </div>
       </div>
-      <div className={classes.form}>
-        <Form id={props.id} onAddToCart={addToCartHandler} />
-      </div>
+
+
     </li>
   );
 }

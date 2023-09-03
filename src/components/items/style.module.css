@@ -152,6 +152,15 @@ input{
 }
 
 
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 630px){
 
     .ase{
@@ -159,26 +168,65 @@ input{
         max-width: 700px;
         width: 90%;
         flex-wrap: wrap;
+        gap: 10px;
     }
     .item{
-        min-width: 250px;
-        max-width: 250px;
-        width: 250px;
+        min-width: 260px;
+        max-width: 470px;
+        width: 80%;
         height: auto;
         display: flex;
-        flex-direction: column;
+        align-items: center;
+        flex-direction: row;
         padding: 8px 16px;
         border-radius: 7px;
         text-align: center;
-        transition: 0.2s ease-in;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
-
-
-
+    .imga{
+        min-width: 150px;
+        width: 150px;
+        height: 150px;
+    }
+    .buttona{
+        min-width: 90px;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .scc{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .form{
+        display: flex;
+    }
+    .icon{
+        font-size: 10px;
+    }
     .products{
         min-width: 200px;
         max-width: 700px;
     }
 
+}
+
+
+@media screen and (max-width: 570px){
+    .fst h2{
+        font-size: 20px;
+    }
+    .fst h4{
+        font-size: 15px;
+    }
+    .before_show{
+        transform: translateY(-350px);
+    }
+}
+
+
+@media screen and (max-width: 470px){
+    .imga{
+        width: 120px;
+        height: 120px;
+    }
 }
