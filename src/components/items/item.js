@@ -24,8 +24,7 @@ function Item(props) {
         <img src={props.img} alt={props.name} className={classes.imga} />
       </div>
       <div>
-        <h2 className={classes.name}>{props.name}</h2>
-        <h4 className={classes.description}>by <span className={classes.sps}>{props.author}</span></h4>
+        <h2 className={classes.name}>{props.author} {props.name}</h2>
         {/* <h4 className={classes.description}>{props.description}</h4> */}
         <h4 className={classes.price}>${props.price}</h4> 
       </div>

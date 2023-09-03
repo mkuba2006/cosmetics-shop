@@ -5,21 +5,22 @@ import { useRef } from 'react';
 //image,name,type,price,addtocart
 import classes from './style.module.css';
 function Form(props) {
-    const amountInputRef = useRef();
+    // const amountInputRef = useRef();
     const submit = (e) =>{
         e.preventDefault();
-        const Enteredamount = amountInputRef.current.value;
-        const number = Enteredamount;
+        // const Enteredamount = 1;
+        const number = 1;
 
-        if ( Enteredamount.trim().length === 0 || number < 1 || number > 5) {
-        return;
-        }
+        // if ( Enteredamount.trim().length === 0 || number < 1 || number > 5) {
+        // return;
+        // }
         props.onAddToCart(number);
     }
 
   return (
     <form onSubmit={submit}>
-        <input
+    <button className={classes.buttona}>
+    {/* <input
         ref={amountInputRef}
         id={'amount_' + props.id}
         type="number"
@@ -27,10 +28,15 @@ function Form(props) {
         max="5"
         step="1"
         defaultValue="1"
-      />
-    <button className={classes.buttona}><FontAwesomeIcon icon={faCartShopping}  className={classes.icon}/></button>
+      /> */}
+    ADD TO CART<FontAwesomeIcon icon={faCartShopping}  className={classes.icon}/>
+    </button>
     </form>
   );
 }
 
 export default Form;
+
+
+
+

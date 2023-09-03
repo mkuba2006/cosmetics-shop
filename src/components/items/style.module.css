@@ -9,7 +9,7 @@
     margin-bottom: 300px;
     justify-content: space-around;
     row-gap: 40px;
-    
+    padding: 0;
 }
 
 @media screen and (max-width: 1300px){
@@ -46,7 +46,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    padding: 8px 16px;
+    padding: 16px;
     border-radius: 7px;
     text-align: center;
     transition: 0.2s ease-in;
@@ -60,47 +60,70 @@
     height: 250px;
 }
 h2, h4{
+    padding-left: 15px;
+    text-align: left;
+    font-weight: 200;
+    font-size: 20px;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     margin: 0;
-    justify-content: center;
+    justify-content: left;
     padding-right: 0;
 }
 .price{
     color: rgb(92, 177, 8);
 }
 .buttona{
-    padding: 3px;
-    background: none;
+    border-radius: 7px;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.233);
     cursor: pointer;
-    margin-top: 0;
+    margin-top: 5px;
+    font-size: 15px;
+    color: white;
+}
+.icon{
+    color: white;
 }
 .buttona:hover{
-    background: none;
+    background-color: rgba(0, 0, 0, 0.479);
 }
 .buttona:focus .icon{
     animation: colorChange 1.5s linear forwards;
 }
-@keyframes colorChange {
+.buttona:focus{
+    animation: chc .5s linear forwards;
+}
+
+@keyframes chc {
     0% {
-        color: black;
+        scale: 1;
     }
     30% {
-        color: green;
+        scale: 0.95;
     }
     100% {
-        color: black; 
+        scale: 1;
     }
-  }
+}
+@keyframes colorChange {
+    0% {
+        color: white;
+    }
+    30% {
+        color: chartreuse;
+    }
+    100% {
+        color: white; 
+    }
+}
 
 
 form{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
-}
-.buttona:hover{
-    background: none;
 }
 input{
     height: 22px;
@@ -108,9 +131,9 @@ input{
     width: 50px;
 }
 .icon{
-    font-size: 25px;
-    padding: 0;
-    color: black;
+    font-size: 15px;
+    padding: 0 0 0 5px;
+    color: white;
 }
 
 .sps{
@@ -126,4 +149,36 @@ input{
     transform: translateY(-400px);
     backdrop-filter: blur(3px);
     text-align: center;
+}
+
+
+@media screen and (max-width: 630px){
+
+    .ase{
+        min-width: 200px;
+        max-width: 700px;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .item{
+        min-width: 250px;
+        max-width: 250px;
+        width: 250px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 8px 16px;
+        border-radius: 7px;
+        text-align: center;
+        transition: 0.2s ease-in;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+
+
+    .products{
+        min-width: 200px;
+        max-width: 700px;
+    }
+
 }
