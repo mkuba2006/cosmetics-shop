@@ -9,8 +9,8 @@ function Topic() {
     return (
         <main>
             <div className={classes.first}>
-                <h1>Enhance style with premium products</h1>
-                <h4>Upgrade your daily routine with our premium men's hair products. Experience confidence through exceptional grooming.</h4>
+                <h1 className={classes.h11}>Enhance style with premium products</h1>
+                <h4 className={classes.hhh}>Upgrade your daily routine with our premium men's hair products. Experience confidence through exceptional grooming.</h4>
                 <a href="#nnn">
                     <button>Explore <FontAwesomeIcon icon={faArrowRight} className={classes.arrow} /></button>
                 </a>

@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
-
+body{
+    overflow-x: hidden;
+}
 :root{
     --hue: 152;
     --text-color: hsl(var(--hue), 4%, 35%);
@@ -45,10 +47,11 @@ h1{
     color: rgb(43, 42, 42);
 }
 
-h4{
+.hhh{
     color: var(--text-color);
     font-size: 18px;
     font-weight: 300;
+    padding-left: 0;
 }
 
 h5{
@@ -172,9 +175,14 @@ img{
         gap: 5px;
         width: 100px;
         justify-content: space-around;
+        margin-top: 5px;
     }
     .icon:first-of-type{
         margin-top: 0px;
+    }
+    .icon:hover{
+        color: green;
+        transform: translateY(-10px);
     }
     h5::after {
         width: 0;
@@ -269,7 +277,7 @@ p{
         width: 90vw;
         margin-top: 200px;
         margin-bottom: 200px;
-     }
+    }
     .first_second{
         width: 400px;
     }
@@ -294,7 +302,9 @@ p{
 
 
 @media screen and (max-width: 630px){
-
+    .first_about{
+       display: none;
+     }
     main{
         display: flex;
         flex-direction: column;
@@ -317,10 +327,10 @@ p{
     }
     .first h1{
         margin-top: 15%;
-        font-size: 30px;
+        font-size: 19px;
     }
     .first h4{
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .images{
@@ -329,9 +339,9 @@ p{
     }
     img{
         transform: translateX(0);
-        width: 90%;
-        min-width: 250px;
-        max-width: 400px;
+        width: 80%;
+        min-width: 150px;
+        max-width: 320px;
     }
     
     .img2{
@@ -339,7 +349,7 @@ p{
         min-height: 180px;
         width: 100px;
         height: 100px;
-        transform: translate(170px, -170px);
+        transform: translate(140px, -170px);
     }
     .first_second{
         min-width: 300px;
@@ -364,6 +374,6 @@ p{
         margin: 10px 0 0 0 ;
     }
     h1{
-        margin-bottom: 5px;
+        margin-bottom: 0px;
     }
 }
