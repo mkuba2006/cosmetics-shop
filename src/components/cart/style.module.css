@@ -144,6 +144,9 @@ ul h1{
 
 
 @media screen and (max-width: 1000px) {
+    .ulsa{
+        padding: 0;
+    }
     .window {
         flex-direction: column;
         width: 80%;
@@ -176,7 +179,9 @@ ul h1{
         width: 33%;
         font-size: 10px;
     }
-
+    .bb button{
+        margin-top: 0;
+    }
     .hide{
         position: absolute;
         right: 4px;
@@ -189,4 +194,156 @@ ul h1{
         cursor: pointer;
         font-family: 'Montserrat', sans-serif;
     }
+}
+
+
+@media screen and (max-width: 740px) {
+    .ulsa{
+        padding: 0;
+        width: 90%;
+    }
+    .Card{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: white;
+        width: 400px;
+        flex-wrap: nowrap;
+        padding: 2px;
+        border-radius: 7px;
+        margin-bottom: 20px;
+        margin: 10px 0;
+    }
+
+    .second h1{
+        width: auto;
+        font-size: 10px;
+    }
+    .imgb{
+        width: 70px;
+        height: 70px;
+        min-width: 70px;
+    }
+    
+    .second p button{
+        padding: 0 5px;
+    }
+    .total span{
+        font-size: 15px;
+    }
+
+    .bb button{
+        background: none ;
+        padding: 0;
+        color: black;
+        font-size: 15px;
+        margin-top: 0;
+    }
+
+    .third h1{
+        width: fit-content; 
+    }
+    .third h1 b{
+        font-size: 18px;
+        width: fit-content;
+    }
+    .second p{
+        font-size: 15px;
+    }
+    .second p button{
+        font-size: 15px;
+        padding: 0 8px;
+    }
+    .second h1{
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 560px) {
+    .Card{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: white;
+        width: 80%;
+        flex-wrap: nowrap;
+        padding: 2px;
+        border-radius: 7px;
+        margin-bottom: 20px;
+        margin: 10px auto;
+    }
+    .imgb{
+        width: 70px;
+        height: 70px;
+        min-width: 70px;
+        margin-right: 0;
+    }
+    .third h1 b{
+        font-size: 18px;
+    }
+    .second p{
+        font-size: 12px;
+    }
+    .second p button{
+        font-size: 12px;
+        padding: 0 3px;
+    }
+    .second h1{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .third h1 b{
+        font-size: 15px;
+    }
+    .second p{
+        font-size: 10px;
+    }
+    .second p button{
+        font-size: 10px;
+        padding: 0 3px;
+    }
+    
+}
+
+@media screen and (max-width: 420px) {
+
+    .imgb{
+        display: none;
+    }
+    .Card{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: white;
+        width: 90%;
+        flex-wrap: nowrap;
+        padding: 2px;
+        border-radius: 0px;
+        margin-bottom: 20px;
+        margin: 20px 0;
+    }
+
+
+    .second h1{
+        width: auto;
+        font-size: 15px;
+    }
+    .third h1 b{
+        font-size: 15px;
+    }
+    .second p{
+        font-size: 15px;
+    }
+    .second p button{
+        font-size: 15px;
+        padding: 0 4px;
+    }
+
 }

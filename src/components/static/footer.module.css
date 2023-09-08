@@ -1,10 +1,12 @@
 .footer{
     display: flex;
     text-align: center;
-    margin: 0 25%;
+    padding: 0 25%;
     flex-direction: column;
     height: 500px;
     justify-content: space-around;
+    background-color: #176B87;
+    color: #EEEEEE;
 }
 .section1{
     display: flex;
@@ -28,13 +30,13 @@
 
 .footer h3{
     font-size: 13px;
-    color: gray;
+    color: #EEEEEE;
 }
 
 .ikony{
     display: flex;
     gap: 10px;
-    color: gray;
+    color: #EEEEEE;
 }
 
 
@@ -43,11 +45,11 @@
         display: flex;
         text-align: center;
         text-align: center;
-        width: 80%;
-        margin: 10%;
+        width: 100%;
         flex-direction: column;
         height: 520px;
         justify-content: space-around;
+        padding: 50px 0;
     }
     .section2{
         margin-bottom: 40px;

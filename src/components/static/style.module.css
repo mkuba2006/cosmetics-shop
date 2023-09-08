@@ -5,6 +5,9 @@ body{
     margin: 0;
     padding: 0;
 }
+.mensite{
+    color: #EEEEEE;
+}
 nav{
     font-size: 25px;
     margin: 0 auto;
@@ -13,13 +16,18 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #176B87;
+    color: white;
+}
+.navbutton{
+    background-color: #053B50;
+    color: #EEEEEE;
+    padding: 12px 26px;
 }
 @media screen and (max-width: 1300px){
 
     nav{
-        padding: 0;
-        width: 80%;
-        max-width: 1000px;
+        justify-content: space-around;
     }
 
 }
@@ -27,20 +35,25 @@ nav{
 @media screen and (max-width: 1000px){
 
     nav{
-        padding: 0;
-        width: 80%;
-        max-width: 600px;
+        padding: 20px 0;
+        width: 100%;
+        margin: 0;
         justify-content: space-around;
     }
-
+    .mensite{
+        margin: 0;
+    }
+    .navbutton{
+       margin: 0;
+    }
 }
 
 @media screen and (max-width: 600px){
 
     nav{
-        margin-top: 20px;
         padding: 0;
-        width: 80%;
+        padding: 10px 0;
+        width: 100%;
         max-width: 590px;
         justify-content: space-around;
         align-items: center;
@@ -48,6 +61,7 @@ nav{
     .mensite{
         font-size: 20px;
         margin-top: 0;
+        color: #64CCC5;
     }
     .navbutton{
         margin: 0;
