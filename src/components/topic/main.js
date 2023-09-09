@@ -12,7 +12,7 @@ function Topic() {
                 <h1 className={classes.h11}>Enhance style with premium products</h1>
                 <h4 className={classes.hhh}>Upgrade your daily routine with our premium men's hair products. Experience confidence through exceptional grooming.</h4>
                 <a href="#nnn">
-                    <button>Explore <FontAwesomeIcon icon={faArrowRight} className={classes.arrow} /></button>
+                    <button className={classes.explore}>Explore <FontAwesomeIcon icon={faArrowRight} className={classes.arrow} /></button>
                 </a>
             </div>   
             <div className={classes.imageContainer}>

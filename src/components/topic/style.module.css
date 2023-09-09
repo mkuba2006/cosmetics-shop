@@ -262,7 +262,10 @@ p{
 
 
 @media screen and (max-width: 800px){
-
+    .explore{
+        padding: 5px 12px;
+        font-size: 15px;
+    }
     main{
         max-width: 600px;
         width: 90%;
