@@ -29,17 +29,18 @@ button{
     padding: 8px 26px;
     font-size: 20px;
     border-radius: 7px;
-    transition: .1s ease-in;
+    transition: .3s ease-in;
     margin-top: 20px;
+    animation-timing-function: ease-in;
 }
 .arrow{
-    transition: 0.1s;
+    transition: 0.3s;
 }
 button:hover{
     background-color: rgb(65, 64, 64);
 }
 button:hover  .arrow{
-    transform:  translateX(3px);
+    transform:  translateX(5px);
 }
 h1{
     font-family: 'Poppins', sans-serif;

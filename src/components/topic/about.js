@@ -7,7 +7,6 @@ function Sec() {
         <div className={classes.first_about} id="nnn">
         <div className={classes.images} >
             <img className={classes.img} src="https://beardman.pl/userdata/public/gfx/11476/captain-fawcett-hair-tonic-bay-rum-tonik-do-wlosow-250ml-1.jpg" />
-            <img className={classes.img2} src="https://maturegents.ca/cdn/shop/products/Lockharts_goon_grease_pomade_1024x.png?v=1549557858" />
         </div>
             <div className={classes.first_second}>
                 <h1>What we got:</h1>

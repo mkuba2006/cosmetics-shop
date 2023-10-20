@@ -5,7 +5,7 @@
     flex-direction: column;
     height: 500px;
     justify-content: space-around;
-    background-color: #176B87;
+    background-color: #5D12D2;
     color: #EEEEEE;
 }
 .section1{
@@ -26,6 +26,7 @@
 .footer h1{
     text-align: left;
     font-size: 22px;
+    color: #a0f79a;
 }
 
 .footer h3{
