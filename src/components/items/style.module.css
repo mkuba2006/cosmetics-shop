@@ -269,3 +269,42 @@ input{
         height: 100px;
     }
 }
+
+
+@media screen and (max-width: 340px){
+    .ase{
+        min-width: 200px;
+        max-width: 700px;
+        width: 100vw;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .item{
+        min-width: 200px;
+        max-width: 470px;
+        width: 90vw;
+        width: 80%;
+        padding: 8px 16px;
+    }
+    .imga{
+        min-width: 80px;
+        width: 80px;
+        height: 80px;
+    }
+    .fst h2{
+        font-size: 13px;
+    }
+    .fst h4{
+        font-size: 10px;
+    }
+    .isix{
+        width: 80px;
+        margin: 0 auto;
+    }
+    .buttona{
+        min-width: 90px;
+        margin-left: 10px;
+        font-size: 10px;
+        padding: 5px 7px;
+    }
+}

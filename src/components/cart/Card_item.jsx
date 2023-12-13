@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import classes from './style.module.css';
-import CartContext from '../../components/store/meal_context';
+import CartContext from '../store/meal_context';
 import Card from "./card";
 
 
