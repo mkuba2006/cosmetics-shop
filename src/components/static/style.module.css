@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-
+*,html{
+    box-sizing: content-box;
+}
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
 .mensite{
-    color: #EEEEEE;
+    color: #000000;
     margin: 10px 0;
 }
 nav{
@@ -17,12 +19,12 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #5D12D2;
+    background-color: #A1EEBD;
     color: white;
 }
 .navbutton{
     background: none;
-    color: #EEEEEE;
+    color: #000000;
     padding: 12px 26px;
     margin-top: 0;
 }

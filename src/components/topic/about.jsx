@@ -2,6 +2,7 @@ import React from "react";
 import classes from './style.module.css';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 function Sec() {
     return (
         <div className={classes.first_about} id="nnn">

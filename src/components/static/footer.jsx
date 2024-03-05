@@ -2,12 +2,11 @@ import classes from './footer.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebook, faGithub, faCcVisa, faPaypal, faCcMastercard } from '@fortawesome/free-brands-svg-icons';
 
+
 function Footer() {
 
     return (
         <footer className={classes.footer}>
-
-
 
             <section className={classes.section1}>
                 <div className={classes.div1}>
